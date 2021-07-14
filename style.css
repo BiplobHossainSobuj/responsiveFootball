@@ -3,23 +3,33 @@ body{
     margin: 0;
     padding: 0;
     font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
 }
-.top-section{
+/* .top-section{
     background-color: blue;
+    
+} 
+h1{
+    font-weight: 700;
+    size: 680px;
+    line-height: 60;
+    
 }
 
  .top-banner{
     display: flex;
-    padding-top: 100px;
+     padding-top: 100px;
     padding-bottom: 100px;
-    margin: 0 200px;
+    margin: 0 200px; 
     
 }
-.text-area{
+
+ .text-area{
     margin-top: 150px;
-    font-weight:900;
-    color: white;
-}
+    
+    
+} 
+
 .button{
     background-color: #E02C6D;
     text-decoration: none;
@@ -27,12 +37,76 @@ body{
     padding: 10px 15px;
     color: antiquewhite;
 }
-
-.animated-banner img{
+ .animated-banner{
+    width: 50%;
+} 
+ .animated-banner img{
     width: 550px;
     height: 440px;
-    margin-left: 100px
+    margin-left: 100px;
 }
 .animated-banner:hover{
-    background-color: aliceblue;
+    transform: scale(1.5);
+    transition-duration: 2s;
+}  */
+header{
+    background-color:rgba(45, 37, 160, 1);
+  }
+  h1 {
+    font-size: 64px;
+    Line-height:80px;
+    font-weight: 700;
+    height: 230px;
+    width:485px;
+    color:  rgba(255, 255, 255, 1);
+    margin-bottom: 27px;
+  }
+  .top-area {
+    width: 1440px;
+    height: 677px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+  }
+  .left-side{
+    margin-right: 102px;
+    margin-left: 156px;
+  }
+  .button{
+    text-decoration: none;
+    background-color: rgb(182, 77, 115);
+    color: rgba(255, 255, 255, 0.555);
+    font-weight: 500;
+    font-size: 16px;
+    Padding: 10px 24px 10px 24px;
+    line-height: 24px;
+    width: 168px;
+    height: 44px;
+    transition: 0.3s;
+  }
+  .players-area{
+      display: grid;
+      grid-template-columns: repeat(3,1fr);
+      padding-top: 20px;
+      
+  }
+  .article{
+    width: 330px;
+    height: 434px;
+    margin-top: 40px;
+    margin-left: 50px;
+    box-shadow: 10px 10px 20px grey;
+    border-radius: 5px;
+  }
+  .players-area img{
+      height: 300px;
+      width: 310px;
+  }
+  .player{
+      margin: 10px 10px;
+  }
+.middle-section{
+    margin-left: 100px;
+    margin-right: 130px;
 }
