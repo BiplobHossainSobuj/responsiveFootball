@@ -5,52 +5,10 @@ body{
     font-family: 'Poppins', sans-serif;
     overflow-x: hidden;
 }
-/* .top-section{
-    background-color: blue;
-    
-} 
-h1{
-    font-weight: 700;
-    size: 680px;
-    line-height: 60;
-    
-}
 
- .top-banner{
-    display: flex;
-     padding-top: 100px;
-    padding-bottom: 100px;
-    margin: 0 200px; 
-    
-}
-
- .text-area{
-    margin-top: 150px;
-    
-    
-} 
-
-.button{
-    background-color: #E02C6D;
-    text-decoration: none;
-    margin-right: 0;
-    padding: 10px 15px;
-    color: antiquewhite;
-}
- .animated-banner{
-    width: 50%;
-} 
- .animated-banner img{
-    width: 550px;
-    height: 440px;
-    margin-left: 100px;
-}
-.animated-banner:hover{
-    transform: scale(1.5);
-    transition-duration: 2s;
-}  */
 header{
-    background-color:rgba(45, 37, 160, 1);
+    background-color:blue;
+    width: fit-content;
   }
   h1 {
     font-size: 64px;
@@ -67,23 +25,31 @@ header{
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: 0px;
     
   }
   .left-side{
     margin-right: 102px;
-    margin-left: 156px;
+    margin-left: 140px;
   }
   .button{
     text-decoration: none;
     background-color: rgb(182, 77, 115);
-    color: rgba(255, 255, 255, 0.555);
+    color: rgb(233, 225, 228));
     font-weight: 500;
     font-size: 16px;
     Padding: 10px 24px 10px 24px;
     line-height: 24px;
     width: 168px;
     height: 44px;
-    transition: 0.3s;
+  }
+  .transformer{
+    width: 556.01px;
+    height: 438px;
+  }
+  .transformer:hover{
+    transform: scale(1.5);
+    transition-duration: 2s;
   }
   .players-area{
       display: grid;
@@ -133,7 +99,10 @@ header{
   margin-left: 50px;
   margin-right: 50px;
 }
-
+.last-section{
+  margin-left: -70px;
+  
+}
 .logo img{
   margin-top: 80px;
   margin-left: 470px;
@@ -159,4 +128,51 @@ header{
 .icon-handler{
   margin: 0px 15px;
   
+}
+/* media quary */
+
+@media only screen and (max-width:688px){
+  
+  .top-area{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    height: 1000px;
+    width: 100%;
+  }
+  .h1{
+    font-size: -30px;
+  }
+  .left-side{
+    margin-left: 70px;
+    margin-bottom: 30px;
+  }
+   .body{
+    margin: 0 -100px;
+    padding: 0 0;
+    overflow-x: hidden;
+    
+  }
+ 
+
+  .players-area{
+    grid-template-columns: repeat(1,1fr);
+    
+  }
+  .article{
+    margin: 0 0;
+  }
+  .vedio-section{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+  }
+  .prizing-ceremony{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+  }
+  .footer{
+    margin-left: 0 0;
+  } 
+  .last-section{
+    margin: 0 -450px;
+  }
 }
